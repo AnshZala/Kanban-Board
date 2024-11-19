@@ -1,0 +1,22 @@
+.task-card {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 90px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task-card:hover {
+    transform: scale(1.02);
+}
+
+.task-card h3 {
+    padding: 0;
+    margin: 0;
+    max-width: 80%;
+}

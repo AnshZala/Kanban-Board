@@ -1,0 +1,22 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    font-size: 11px;
+    /* padding: 30px 20px; */
+    margin: 0;
+}
+
+.kanban-columns {
+    display: flex;
+    gap: 20px;
+    padding: 35px;
+    padding-top: 10px;
+    background-color: #eaeaea;
+}
+
+.gp {
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid black 5;
+}

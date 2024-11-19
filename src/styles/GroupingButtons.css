@@ -1,0 +1,83 @@
+.display-container {
+    position: relative;
+    /* margin-bottom: 20px; */
+}
+
+.display-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.display-button span span {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.LucideSettings {
+    width: 20px;
+}
+
+.dropdown-icon {
+    font-size: 10px;
+    color: #666;
+}
+
+.popover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 16px;
+    min-width: 240px;
+    z-index: 100;
+}
+
+.popover-section {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.popover-section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.dropdown {
+    width: 100%;
+    text-align: center;
+    /* padding: 4px 10px; */
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    background: white;
+    cursor: pointer;
+    margin-top: -5px;
+    padding: 8px;
+}
+
+.dropdown:focus {
+    outline: none;
+    border: none;
+    border-color: #0066ff;
+    box-shadow: 0 0 0 2px rgba(0,102,255,0.1);
+}
